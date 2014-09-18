@@ -13,7 +13,7 @@ namespace Password
             string password = "Csharp";
             string input = Console.ReadLine();
             string admin = "Tanczos";
-            program
+            
 
             switch (input)
             {
@@ -30,13 +30,44 @@ namespace Password
                             Console.WriteLine("\nHello Administrator {0}\n", admin);
                             while (username == "Tanczos")
                             {
-                                switch (
+                                Console.Write("\nType \"P1\" For Program 1:\n");
+                                string choice = Console.ReadLine();
+                                if (choice == "P1")
+                                {
+                                    Console.Write("\nEnter The Program Password: \n");
+                                    break;
+                                }
+
+                                else
+                                {
+                                    Console.Write("\nTry Again\n");
+                                }
+
                             }
                         }
 
                         else
                         {
+                            if (username == "Tanczos")
+                        {
                             Console.WriteLine("\nHello {0}\n", username);
+                            while (username == username)
+                            {
+                                Console.Write("\nType \"P1\" For Program 1:\n");
+                                string choice = Console.ReadLine();
+                                if (choice == "P1")
+                                {
+                                    Console.Write("\nEnter The Program Password: \n");
+                                    break;
+                                }
+
+                                else
+                                {
+                                    Console.Write("\nTry Again\n");
+                                }
+
+                            }
+                            
                         }
                     }
 
@@ -80,5 +111,6 @@ namespace Password
 
             Console.Read();
         }   
+    }
     }
 }
