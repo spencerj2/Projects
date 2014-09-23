@@ -1,0 +1,4 @@
+C:\Users\eahscs\Documents\GitHub\Projects\Lost\Lost\bin\Debug\Lost.exe
+C:\Users\eahscs\Documents\GitHub\Projects\Lost\Lost\bin\Debug\Lost.pdb
+C:\Users\eahscs\Documents\GitHub\Projects\Lost\Lost\obj\x86\Debug\Lost.exe
+C:\Users\eahscs\Documents\GitHub\Projects\Lost\Lost\obj\x86\Debug\Lost.pdb
