@@ -32,9 +32,11 @@ namespace Nuker
         {
             if (checkBox1.Checked)
             {
-                MessageBox.Show("Are You Sure");
-                MessageBox.Buttons.YesNoCancel,
-
+               string message = "Are You Sure?";
+               MessageBoxButtons buttons = MessageBoxButtons.YesNo;
+               MessageBoxIcon icon = MessageBoxIcon.Question;
+	           MessageBoxDefaultButton defaultbutton = MessageBoxDefaultButton.Button2;
+               MessageBox.Show(message, buttons, icon, defaultbutton);
             }
         }
 
@@ -42,7 +44,7 @@ namespace Nuker
         {
             if (checkBox2.Checked)
             {
-                MessageBox.Show("Are You Sure");
+                MessageBox.Show("hello and welcome!", "welcome", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
     }
