@@ -32,7 +32,7 @@ namespace Nuker
         {
             if (checkBox1.Checked)
             {
-                MessageBox.Show("Are You", "Sure", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Information);
+                MessageBox.Show("Are You Sure?", "Warning", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
             }
         }
 
@@ -40,8 +40,18 @@ namespace Nuker
         {
             if (checkBox2.Checked)
             {
-                MessageBox.Show("hello and welcome!", "welcome", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Are You Sure?", "Warning", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Warning);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }
