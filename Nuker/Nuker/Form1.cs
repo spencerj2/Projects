@@ -46,12 +46,21 @@ namespace Nuker
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            this.timer1.Start();
+            progressBar1.Minimum = 0;
+            progressBar1.Maximum = 250;
         }
 
         private void progressBar1_Click(object sender, EventArgs e)
         {
-           
+            if (progressBar1_Click.Value == 200)
+            {
+            }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            this.progressBar1.Increment(1);
         }
     }
 }

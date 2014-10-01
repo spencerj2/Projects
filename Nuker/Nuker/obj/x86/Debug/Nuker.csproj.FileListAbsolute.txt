@@ -12,3 +12,4 @@ C:\Users\eahscs\Documents\GitHub\Projects\Nuker\Nuker\bin\Debug\Nuker.pdb
 C:\Users\eahscs\Documents\GitHub\Projects\Nuker\Nuker\obj\x86\Debug\Nuker.Form1.resources
 C:\Users\eahscs\Documents\GitHub\Projects\Nuker\Nuker\obj\x86\Debug\Nuker.Properties.Resources.resources
 C:\Users\eahscs\Documents\GitHub\Projects\Nuker\Nuker\obj\x86\Debug\Nuker.csproj.GenerateResource.Cache
+C:\Users\eahscs\Documents\GitHub\Projects\Nuker\Nuker\obj\x86\Debug\Nuker.csprojResolveAssemblyReference.cache
