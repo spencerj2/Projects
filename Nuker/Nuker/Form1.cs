@@ -53,14 +53,16 @@ namespace Nuker
 
         private void progressBar1_Click(object sender, EventArgs e)
         {
-            if (progressBar1_Click.Value == 200)
+            if (progressBar1.Value == 250)
             {
+                MessageBox.Show("Done", "Done", MessageBoxButtons.OK);
+                this.timer1.Stop();
             }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            this.progressBar1.Increment(1);
+            this.progressBar1.Increment(5); 
         }
     }
 }
