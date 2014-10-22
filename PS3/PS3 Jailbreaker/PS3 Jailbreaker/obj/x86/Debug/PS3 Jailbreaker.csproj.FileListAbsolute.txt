@@ -1,0 +1,7 @@
+C:\Users\eahscs\Documents\GitHub\Projects\PS3\PS3 Jailbreaker\PS3 Jailbreaker\bin\Debug\PS3 Jailbreaker.exe
+C:\Users\eahscs\Documents\GitHub\Projects\PS3\PS3 Jailbreaker\PS3 Jailbreaker\bin\Debug\PS3 Jailbreaker.pdb
+C:\Users\eahscs\Documents\GitHub\Projects\PS3\PS3 Jailbreaker\PS3 Jailbreaker\obj\x86\Debug\PS3_Jailbreaker.Form1.resources
+C:\Users\eahscs\Documents\GitHub\Projects\PS3\PS3 Jailbreaker\PS3 Jailbreaker\obj\x86\Debug\PS3_Jailbreaker.Properties.Resources.resources
+C:\Users\eahscs\Documents\GitHub\Projects\PS3\PS3 Jailbreaker\PS3 Jailbreaker\obj\x86\Debug\PS3 Jailbreaker.csproj.GenerateResource.Cache
+C:\Users\eahscs\Documents\GitHub\Projects\PS3\PS3 Jailbreaker\PS3 Jailbreaker\obj\x86\Debug\PS3 Jailbreaker.exe
+C:\Users\eahscs\Documents\GitHub\Projects\PS3\PS3 Jailbreaker\PS3 Jailbreaker\obj\x86\Debug\PS3 Jailbreaker.pdb
