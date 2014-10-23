@@ -78,7 +78,7 @@
             "v3.41",
             "v3.42",
             "v3.50",
-            "v.3.55"});
+            "v3.55"});
             this.comboBox1.Location = new System.Drawing.Point(7, 25);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(225, 32);

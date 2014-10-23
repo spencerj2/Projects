@@ -18,14 +18,26 @@ namespace PS3_Jailbreaker
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            MessageBox.Show("PS3 Jailbreaker v1");
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            button1.Click += new System.EventHandler(Click);
             this.timer1.Start();
-        }
 
+            if (comboBox1.Text == "v3.55" || comboBox1.Text == "v3.50" || comboBox1.Text == "v3.42" || comboBox1.Text == "v3.41" && comboBox2.Text == "Rogero" || comboBox2.Text == "Rebug" || comboBox2.Text == "Kmeaw")
+            {
+                if (comboBox2.Text == "")
+                {
+                    MessageBox.Show("Please Enter A Firmware");
+                }
+                if (comboBox1.Text == "")
+                {
+                    MessageBox.Show("Please Enter A Version");
+                }
+            }
+        }
         private void progressBar1_Click(object sender, EventArgs e)
         {
           
@@ -33,11 +45,8 @@ namespace PS3_Jailbreaker
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            if (comboBox1.Text == "v3.55")
-            {
                 this.progressBar1.Increment(1);
-                this.progressBar1.Increment(1);
-            }
+                this.progressBar2.Increment(1);
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
