@@ -20,5 +20,29 @@ namespace PS3_Jailbreaker
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.timer1.Start();
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (comboBox1.Text == "v3.55")
+            {
+                this.progressBar1.Increment(1);
+                this.progressBar1.Increment(1);
+            }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
