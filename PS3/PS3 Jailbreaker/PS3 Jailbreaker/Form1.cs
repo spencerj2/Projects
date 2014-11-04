@@ -23,7 +23,8 @@ namespace PS3_Jailbreaker
 
         private void button1_Click(object sender, EventArgs e)
         {
-            button1.Click += new System.EventHandler(Click);
+
+            //button1.Click += new System.EventHandler(Click);
             this.timer1.Start();
 
             if (comboBox1.Text == "v3.55" || comboBox1.Text == "v3.50" || comboBox1.Text == "v3.42" || comboBox1.Text == "v3.41" && comboBox2.Text == "Rogero" || comboBox2.Text == "Rebug" || comboBox2.Text == "Kmeaw")
@@ -50,6 +51,28 @@ namespace PS3_Jailbreaker
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+            
+        }
+
+        public void tsLabel1_Click(object sender, EventArgs e)
+        {
+                tsLabel1.Text = "PS3";
+
+                if (toolStripDropDownButton1.Text == "PS4")
+                {
+                    tsLabel1.Text = "PS4";
+                }
+                 
+                 
+        }
+
+        public void toolStripDropDownButton1_Click(object sender, EventArgs e)
         {
 
         }
