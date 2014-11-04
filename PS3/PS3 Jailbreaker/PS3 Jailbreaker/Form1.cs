@@ -41,13 +41,13 @@ namespace PS3_Jailbreaker
         }
         private void progressBar1_Click(object sender, EventArgs e)
         {
-          
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-                this.progressBar1.Increment(1);
-                this.progressBar2.Increment(1);
+            this.progressBar1.Increment(1);
+            this.progressBar2.Increment(1);
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -57,24 +57,29 @@ namespace PS3_Jailbreaker
 
         private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
-            
+
         }
 
         public void tsLabel1_Click(object sender, EventArgs e)
         {
-                tsLabel1.Text = "PS3";
 
-                if (toolStripDropDownButton1.Text == "PS4")
-                {
-                    tsLabel1.Text = "PS4";
-                }
-                 
-                 
         }
 
-        public void toolStripDropDownButton1_Click(object sender, EventArgs e)
+        private void toolStripDropDownButton1_Click(object sender, EventArgs e)
         {
+            int i = 0;
 
+            if (i == 0)
+            {
+                tsLabel1.Text = "PS3";
+            }
+
+            if (pS4ToolStripMenuItem.Selected)
+            {
+                i++;
+                tsLabel1.Text = "PS4";
+            }
         }
+
     }
 }
